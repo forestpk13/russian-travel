@@ -1,3 +1,4 @@
 .header__lang-links {
-  padding-bottom: 4px;
+  min-width: 62px;
+  padding-bottom: 5px;
 }
