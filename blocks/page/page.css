@@ -4,4 +4,6 @@
   margin: 0 auto;
   background-color: #2A2C2F;
   font-family: 'Inter';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
