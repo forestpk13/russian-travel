@@ -6,22 +6,26 @@
   gap: 16px;
 }
 
-@media screen and (max-width: 1280px) {
-  .photo-grid {
-    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
-  }
-}
-
-
 @media screen and (max-width: 1024px) {
   .photo-grid {
-    padding: calc((100vw - 768px)/(1024 - 768) * (92 - 88) + 88px) calc((100vw - 768px)/(1024 - 768) * (48 - 24) + 24px) 0;
+    gap:14px;
+    padding-top: calc((100vw - 769px)/(1024 - 768) * (92 - 88) + 88px);
+    padding-left: calc((100vw - 769px)/(1024 - 768) * (48 - 24) + 24px);
+    padding-right: calc((100vw - 769px)/(1024 - 768) * (48 - 24) + 24px);
   }
 }
 
-@media screen and (max-width: 683px) {
+@media screen and (max-width: 768px) {
   .photo-grid {
-    padding: calc((100vw - 320px)/(683 - 320) * (88 - 64) + 64px) calc((100vw - 320px)/(683 - 320) * (24 - 16) + 16px) 0;
+    padding-top: calc((100vw - 320px)/(768 - 320) * (88 - 64) + 64px);
+    padding-left: calc((100vw - 320px)/(768 - 320) * (24 - 16) + 16px);
+    padding-right: calc((100vw - 320px)/(768 - 320) * (24 - 16) + 16px);
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid {
     gap: 12px;
   }
 }

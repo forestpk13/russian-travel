@@ -1,0 +1,34 @@
+.places__place {
+  display: grid;
+  grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
+  gap: 48px 40px;
+  margin-bottom: 80px;
+}
+
+.places__place:last-of-type {
+  margin-bottom: 0;
+}
+
+
+@media screen and (max-width: 1080px) {
+  .places__place {
+    grid-template-columns: minmax(340px, 440px) minmax(352px, 484px);
+    column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places__place {
+    grid-template-columns: minmax(320px, 340px) minmax(288px, 352px);
+    column-gap: 28px;
+    margin-bottom: 73px;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  .places__place {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    row-gap: 32px;
+    margin-bottom: 50px;
+  }
+}
