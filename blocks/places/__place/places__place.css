@@ -6,7 +6,7 @@
 }
 
 .places__place:last-of-type {
-  margin-bottom: 0;
+  margin-bottom: 92px;
 }
 
 
@@ -23,6 +23,10 @@
     column-gap: 28px;
     margin-bottom: 73px;
   }
+
+  .places__place:last-of-type {
+    margin-bottom: 90px;
+  }
 }
 
 @media screen and (max-width: 668px) {
@@ -30,5 +34,9 @@
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     row-gap: 32px;
     margin-bottom: 50px;
+  }
+
+  .places__place:last-of-type {
+    margin-bottom: 66px;
   }
 }
