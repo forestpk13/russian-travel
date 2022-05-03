@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding-top: 92px;
   padding-bottom: 92px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
