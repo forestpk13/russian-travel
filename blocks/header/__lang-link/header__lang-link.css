@@ -8,10 +8,6 @@
   color: white;
 }
 
-.header__lang-link:first-of-type {
-  margin-right: 14px;
-}
-
 @media screen and (max-width: 752px) {
   .header__lang-link {
     font-size: calc((100vw - 320px)/(752 - 320) * (24 - 18) + 18px);

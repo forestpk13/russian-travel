@@ -18,6 +18,7 @@
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__img-container/lead__img-container.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 
@@ -45,20 +46,32 @@
 
 /*Стили блока cover*/
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__text-container/cover__text-container.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__background/cover__background.css);
 
+/*Стили блока footer*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
 
-.cover__text-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
+
+.footer__links-item {
+  margin-right: 18px;
 }
+
+@media screen and (max-width: 697px) {
+  .footer__links-item {
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+
+  .footer__links-item:last-of-type {
+    margin-bottom: 48px;
+  }
+}
+

@@ -4,7 +4,7 @@
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-weight: 900;
   font-size: 72px;
-  line-height: 1.06;
+  line-height: 1.055;
   text-rendering: optimizeLegibility;
 }
 
@@ -16,7 +16,7 @@
 
 @media screen and (max-width:768px) {
   .places__title {
-    line-height: 1.10;
+    line-height: 1.11;
     font-size: calc((100vw - 320px)/(768 - 320) * (42 - 32) + 32px);
   }
 }
