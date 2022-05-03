@@ -1,6 +1,9 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 
+/*Стили блока link-opacity*/
+@import url(../blocks/link-opacity/link-opacity.css);
+
 /*Стили блока body*/
 @import url(../blocks/root/root.css);
 
