@@ -21,6 +21,3 @@
 **Ссылка на сайт на GitHub Pages**
 
 Сайт можно посмотреть на сервисе GitHub Pages [GitHub Pages](https://forestpk13.github.io/russian-travel/).
-
-Удачи!
-пше 
