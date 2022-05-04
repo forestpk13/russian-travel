@@ -4,7 +4,7 @@
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.6;
+  line-height: 1.63;
 }
 
 .places__paragraph:last-of-type {
@@ -21,7 +21,6 @@
   .places__paragraph {
     font-size: 16px;
     margin-bottom: 25px;
-    line-height: 1.623;
   }
 }
 
