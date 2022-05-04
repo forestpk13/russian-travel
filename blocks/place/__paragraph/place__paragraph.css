@@ -1,4 +1,4 @@
-.places__paragraph {
+.place__paragraph {
   margin: 0 0 26px;
   color: white;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -7,25 +7,25 @@
   line-height: 1.63;
 }
 
-.places__paragraph:last-of-type {
+.place__paragraph:last-of-type {
   margin-bottom: 0;
 }
 
 @media screen and (max-width: 1080px) {
-  .places__paragraph {
+  .place__paragraph {
     margin-bottom: 27px;
   }
 }
 
 @media screen and (max-width: 880px) {
-  .places__paragraph {
+  .place__paragraph {
     font-size: 16px;
     margin-bottom: 25px;
   }
 }
 
 @media screen and (max-width: 668px) {
-  .places__paragraph {
+  .place__paragraph {
     margin-left: 16px;
     margin-right: 16px;
   }
