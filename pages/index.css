@@ -48,6 +48,13 @@
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 
+
+/*Стили блока content-title*/
+@import url(../blocks/content-title/content-title.css);
+
+/*Стили блока content-subtitle*/
+@import url(../blocks/content-subtitle/content-subtitle.css);
+
 /*Стили блока cover*/
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);
